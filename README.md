@@ -9,6 +9,8 @@ Rajapintasovellus datan hakuun tietokannasta
 
 Halusin testata API-dokumentaation sisällyttämistä Pythonilla tehtyyn rajapintaan. Tässä käytetään Flasggeria (ilmeisesti Flask + Swagger?)
 
+Kun rajapinta on käynnissä, liitä selaimeen http://127.0.0.1:5000/apidocs/
+
 **API-dokumentaation käytössä on hyödynnetty tekoälyä.** Flasgger-työkalu löytyi seuraavalla promptilla: 
 
 "moi! haluaisin tehdä swaggerin kaltaisen dokumentaation ohjelmalleni. rajapinta hakee dataa postgres tietokannasta ja ohjelma rakennettu pythonilla ja käyttää flask-moduulia tiedonhakuun. mitä erilaisia tapoja on toteuttaa dokumentaatio?" 
@@ -49,9 +51,6 @@ lisätään itse koodiin, niin koodista voi tulla vaikealukuista, koska tiedosto
 
 Saamani template oli selkeä ja siihen oli helppoa tehdä muutoksia, vaikka aluksi yamlin ymmärtäminen tuntui todella haastavalta. Endpointien rakentamisen yhteydessä kieli alkoi
 selventyä ja jotkut asiat tuntuivat järkeviltä. Lopulta verrattu tekemiäni flasgger-kuvauksia tähän: https://swagger.io/docs/specification/v3_0/basic-structure/
-
-
-Kun rajapinta on käynnissä, liitä selaimeen http://127.0.0.1:5000/apidocs/
 
 
 # Endpointit
